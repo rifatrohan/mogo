@@ -1,0 +1,842 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+/*=============================preloader CSS=====================*/
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 99999;
+}
+
+svg {
+    display: block;
+    width: 258px;
+    height: 258px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    display: block;
+    width: 258px;
+    height: 258px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    line-height: 258PX;
+    font-size: 40px;
+
+}
+
+
+.tree {
+    fill: #ef7d0c;
+}
+
+.circle-mask {
+    transform-origin: 50% 90%;
+    animation: scale 5s infinite ease-out;
+}
+
+@keyframes scale {
+
+    0%,
+    100% {
+        transform: scale(0.0);
+    }
+
+    7%,
+    90% {
+        transform: scale(0.4);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+/*=============================Navbar CSS=====================*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    transition: all linear.3s;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #fce38a;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear.3s;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    padding: 0 27px;
+}
+
+.navbar {
+    padding: 25px 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all linear .4s;
+}
+
+.bg {
+    background: linear-gradient(rgba(243, 131, 129, 0.9), rgba(252, 227, 138, 0.9));
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#c7b299;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color:#c7b299;
+}
+
+.navbar-light .navbar-nav .nav-link.active:after {
+    width: 100%;
+    opacity: 1;
+
+}
+
+
+
+/*=============================Banner CSS=====================*/
+#banner {
+    background: url(../image/banner/1jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 236px;
+    padding-bottom: 230px;
+    position: relative;
+}
+
+#banner:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(243, 131, 129, 0.9), rgba(252, 227, 138, 0.9));
+}
+
+.banner-text-slider {
+    position: relative;
+    z-index: 99;
+}
+
+.banner-item h3 {
+    font-size: 72px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    padding-bottom: 15px;
+
+}
+
+
+.banner-item h1 {
+    position: relative;
+    font-size: 150px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 140px;
+    padding-bottom: 118px;
+
+}
+
+.banner-item h1 span {
+    position: relative;
+    font-size: 150px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 140px;
+    padding-bottom: 118px;
+    display: block;
+}
+
+.banner-item h1:after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #ffffff;
+    bottom: 84px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.banner-item a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 3px solid #ffff;
+    padding: 12px 30px;
+}
+
+
+/*=============================About CSS=====================*/
+#about {
+    padding-top: 92px;
+    padding-bottom: 110px;
+}
+
+
+.head h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    padding-bottom: 14px;
+
+}
+
+.head h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 76px;
+    position: relative;
+
+}
+
+.head h2:after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    bottom: 42px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.head p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    padding: 0 20px;
+
+
+}
+
+.about-item {
+    position: relative;
+
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(243, 131, 129, 0.9), rgba(252, 227, 138, 0.9));
+    opacity: 0;
+    transition: all linear .3s;
+
+}
+
+
+
+.content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.content i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.about-item:hover .overlay {
+    opacity: 1;
+}
+
+.about-img {
+    padding-top: 80px;
+}
+
+
+
+
+
+/*============================counter CSS=====================*/
+
+
+#counter {
+    background: #95e1d3;
+}
+
+.counter-item {
+    position: relative;
+    padding-top: 72px;
+    padding-bottom: 70px;
+}
+
+.counter-item:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background: #b5eae0;
+}
+
+.counter-item:last-child:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -15px;
+    width: 1px;
+    height: 100%;
+    background: #b5eae0;
+}
+
+
+.counter-item h3 {
+
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.counter-item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+/*============================Services CSS=====================*/
+
+#service {
+    padding-top: 90px;
+}
+
+.service-main {
+    padding-top: 23px;
+}
+
+.service-text h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+
+}
+
+
+.service-text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+
+}
+
+.icon {
+    font-size: 24px;
+    color: #95e1d3;
+    line-height: 24px;
+}
+
+.service-text {
+    padding-bottom: 79px;
+}
+
+
+/*============================feedback CSS=====================*/
+
+#feedback {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #f8f8f8;
+    position: relative;
+}
+
+.arrow i {
+    color: #cccccc;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+
+.feed-icon {
+    margin-top: 30px;
+}
+
+.feed-icon i {
+    font-size: 62px;
+    color: #95e1d3;
+    padding: 31px 41px;
+    border: 3px solid #95e1d3;
+}
+
+.feed-text {
+    margin-left: 47px;
+}
+
+.feed-text p {
+    font-size: 22.5px;
+    font-weight: 300;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    line-height: 36px;
+    font-style: italic;
+}
+
+.feed-text h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    padding-left: 70px;
+    position: relative;
+}
+
+.feed-text h4:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    transform: translateY(-50%);
+}
+
+
+
+
+/*============================team CSS=====================*/
+#team {
+    padding-top: 98px;
+    padding-bottom: 100px;
+
+}
+
+.team-img {
+    padding-top: 72px;
+}
+
+.team-overlay i {
+    font-size: 20px;
+    color: #f38181;
+    background: #fce38a;
+    padding: 18px 22px;
+    margin-left: -3.5px;
+
+}
+
+.team-overlay i:hover {
+    color: #ffff;
+}
+
+
+
+.team-text h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: 38px;
+}
+
+
+
+.team-text h6 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-style: italic;
+}
+
+/*=============================gallery CSS=====================*/
+#gallery {
+    padding-top: 90px;
+}
+
+
+.item-img {
+    position: relative;
+
+}
+
+
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(243, 131, 129, 0.9), rgba(252, 227, 138, 0.9));
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.item-img:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gal-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gal-content i {
+    font-size: 30px;
+    padding-bottom: 18px;
+    color: #ffff;
+}
+
+
+.gal-content h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+
+.gal-content h5 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-style: italic;
+}
+
+.gallery-item{
+    padding-top: 80px;
+}
+
+/*=============================footer CSS=====================*/
+
+#footer {
+    padding-top: 75px;
+    padding-bottom: 70px;
+    background: #f8f8f8;
+}
+
+
+
+.footer-item1 p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    padding-top: 36px;
+
+}
+
+.footer-item1 h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 27px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 14px;
+
+}
+
+.footer-item1 h4 span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer-item1 h5 span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-style: italic;
+    margin-right: 5px;
+}
+
+.footer-item1 h5 i {
+    font-size: 15px;
+    padding-left: 12px;
+    color: #95e1d3;
+    padding-top: 17px;
+
+
+}
+
+.form {
+    margin-top: 38px;
+    position: relative;
+}
+
+
+
+.form input {
+    border: 1px solid #e7e7e7;
+}
+
+.form input::placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #cccc;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-style: italic;
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+.form button {
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 8px 32px;
+    border: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.footer-item2 h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 38px;
+}
+
+
+.blog-text {
+    padding-left: 5px;
+}
+
+.blog-text h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 16px;
+}
+
+.blog-text p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #9999;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.blog-main {
+    margin-bottom: 26.5px;
+}
+
+
+.insta-img {
+    border: 1px solid #ffff;
+}
+
+.footer-item3 h4 {
+    padding-bottom: 25px;
+}
+
+.more a {
+    font-size: 13px;
+    font-weight: 300;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-style: italic;
+}
+
+
+
+
+/*=============================copyright CSS=====================*/
+
+#copyright {
+    background: #f8f8f8;
+    border-top: 1px solid #e5e5e5;
+}
+
+.copyright p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 62px;
+    margin-bottom: 0;
+}
+
+
+.copyright span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #f38181;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*=============================back-top CSS=====================*/
+.back-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.back-top i {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    background: linear-gradient(rgba(243, 131, 129, 0.9), rgba(252, 227, 138, 0.9));
+    border-radius: 5px;
+    border: 0;
+}

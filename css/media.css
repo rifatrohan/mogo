@@ -1,0 +1,819 @@
+/*large device*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-item h1 {
+        font-size: 118px;
+    }
+
+    .banner-item h1 span {
+        font-size: 118px;
+        padding-bottom: 50px;
+    }
+
+    #banner {
+        padding-bottom: 140px;
+
+    }
+
+    #about {
+        padding-top: 70px;
+        padding-bottom: 65px;
+    }
+
+
+    #service {
+        padding-top: 70px;
+    }
+
+
+    #team {
+        padding-top: 55px;
+        padding-bottom: 0px;
+    }
+
+    .gallery-item {
+        padding-top: 40px;
+    }
+
+
+    .blog-main {
+        margin-bottom: 14px;
+    }
+
+    #footer {
+        padding-bottom: 20px;
+    }
+
+    .counter-item:last-child::before {
+        display: none;
+    }
+
+    .counter-item::after {
+        display: none;
+    }
+
+    .feed-icon i {
+        margin-left: 25px;
+    }
+}
+
+
+
+/*medium device*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-toggler i {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-toggler i:hover {
+        font-size: 30px;
+        color: #fce38a;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+
+    .navbar-nav {
+        background: rgba(44, 37, 27, 0.3);
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+
+        display: none;
+
+    }
+
+
+    button:focus {
+        outline: 0;
+
+    }
+
+    .navbar-toggler i {
+        margin-right: -13px;
+    }
+
+    .feed-text {
+        margin-top: 55px;
+    }
+
+    .banner-item h3 {
+        padding-top: 10px;
+    }
+
+    .banner-item h1 {
+        font-size: 120px;
+    }
+
+    .banner-item h1 span {
+        font-size: 120px;
+
+    }
+
+
+    .banner-item h1 span {
+        padding-bottom: 40px;
+
+    }
+
+    #banner {
+        padding-bottom: 100px;
+
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
+
+    .about-img {
+        padding-top: 30px;
+    }
+
+    .img-fluid {
+        margin-bottom: 5px;
+    }
+
+    #service {
+        padding-top: 60px;
+    }
+
+    .icon {
+        padding-bottom: 15px;
+    }
+
+    .service-text {
+        padding-bottom: 50px;
+    }
+
+    #team {
+        padding-bottom: 0px;
+    }
+
+    #team {
+        padding-top: 60px;
+    }
+
+    .head p {
+        padding-bottom: 0px;
+    }
+
+    .gallery-item {
+        padding-top: 0px;
+    }
+
+    .pr-0,
+    .px-0 {
+
+        text-align: center;
+    }
+
+    .img-fluid {
+        margin-bottom: 0px;
+    }
+
+    #footer {
+        padding-bottom: 40px;
+
+    }
+
+    .footer-item2 h4 {
+        padding-bottom: 25px;
+        padding-top: 20px;
+    }
+
+    .team-overlay i {
+        font-size: 10px;
+        margin-left: -3px;
+    }
+
+    #gallery {
+        padding-top: 65px;
+    }
+
+    .about-item {
+        margin-bottom: 10px;
+    }
+
+    .counter-item:last-child::before {
+        display: none;
+    }
+
+    .counter-item::after {
+        display: none;
+    }
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        text-align: center;
+    }
+
+    .feed-text h4 {
+        padding-left: 75px;
+        text-align: left;
+    }
+
+    .head h2 {
+        font-size: 19px;
+    }
+
+    .head h3 {
+        font-size: 19px;
+    }
+
+    .team-overlay i {
+        font-size: 8.5px;
+        margin-left: -1.8px;
+    }
+
+}
+
+
+/*small device*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .navbar-toggler i {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-toggler i:hover {
+        font-size: 30px;
+        color: #fce38a;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+
+    .navbar-nav {
+        background: rgba(44, 37, 27, 0.3);
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+
+    button:focus {
+        outline: 0;
+
+    }
+
+    .navbar-toggler i {
+        margin-right: -13px;
+    }
+
+    .banner-item h3 {
+        font-size: 60px;
+    }
+
+    .banner-item h1 {
+        font-size: 92px;
+    }
+
+    .banner-item h1 span {
+        font-size: 100px;
+        padding-bottom: 20px;
+    }
+
+    #banner {
+
+        padding-bottom: 100px;
+    }
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .about-img {
+        padding-top: 30px;
+    }
+
+    .counter-item p {
+        line-height: 20px;
+    }
+
+    .counter-item {
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .counter-item:last-child::before {
+        display: none;
+    }
+
+    .counter-item::after {
+        display: none;
+    }
+
+
+    body {
+        font-size: 0rem;
+
+    }
+
+    #feedback {
+        padding-top: 0px;
+    }
+
+    .counter-item h3 {
+        font-size: 60px;
+    }
+
+    #service {
+        padding-top: 40px;
+    }
+
+    .service-main {
+        padding-top: 0px;
+    }
+
+    .feed-text h4 {
+        text-align: left;
+    }
+
+    .service-text {
+        padding-bottom: 40px;
+    }
+
+    #gallery {
+        padding-top: 50px;
+    }
+
+    .feed-icon {
+        margin-top: -60px;
+    }
+
+    .feed-text p {
+        font-size: 14.5px;
+        line-height: 30px;
+    }
+
+    #feedback {
+        padding-top: 10px;
+    }
+
+    #feedback {
+        padding-bottom: 50px;
+    }
+
+    #team {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .team-img {
+        padding-top: 40px;
+    }
+
+    .feed-icon {
+        margin-top: 70px;
+    }
+
+    p {
+        margin-bottom: 3rem;
+    }
+
+    #footer {
+        margin-top: 45px;
+    }
+
+    .feed-icon i {
+        font-size: 50px;
+        padding: 10px 30px;
+    }
+
+    .feed-text p {
+        margin-top: 60px;
+    }
+
+    .service-text h4 {
+        margin-top: 15px;
+    }
+
+    .footer-item2 h4 {
+        margin-bottom: 20px;
+    }
+
+    #team {
+        padding-top: 62px;
+        padding-bottom: 45px;
+    }
+
+    #footer {
+        padding-top: 0px;
+        ;
+    }
+
+    body {
+        line-height: 0.5;
+
+    }
+
+    .footer-item2 h4 {
+        padding-bottom: 0px;
+    }
+
+    body {
+        text-align: center;
+    }
+
+
+    .gallery-item {
+        padding-top: 0px;
+    }
+
+    .about-item {
+
+        margin-bottom: 10px;
+    }
+
+    .h4,
+    h4 {
+        margin-top: -28px;
+    }
+
+    #footer {
+        padding-bottom: 35px;
+
+    }
+
+    .content h4 {
+        margin-top: 10px;
+    }
+
+    .team-overlay i {
+        margin-left: 3.5px;
+    }
+
+    .footer-item2 h4 {
+        margin-top: 30px;
+    }
+
+    .form button {
+        padding: 15px 32px;
+
+    }
+
+    .feed-text h4 {
+        padding-left: 75px;
+        text-align: left;
+    }
+
+
+}
+
+
+
+/* extra small device*/
+
+@media (max-width: 575.98px) {
+
+    .navbar-toggler i {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-toggler i:hover {
+        font-size: 30px;
+        color: #fce38a;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+
+    .navbar-nav {
+        background: rgba(44, 37, 27, 0.3);
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+
+        display: none;
+
+    }
+
+    button:focus {
+        outline: 0;
+
+    }
+
+    #banner {
+        padding-top: 110px;
+        padding-bottom: 80px;
+
+    }
+
+
+    .banner-item h3 {
+        font-size: 40px;
+
+    }
+
+    .banner-item h1 {
+        font-size: 52px;
+        line-height: 72px;
+
+    }
+
+    .banner-item h1 span {
+        font-size: 52px;
+        line-height: 72px;
+        padding-bottom: 0px;
+    }
+
+    #about {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .about-img {
+        padding-top: 20px;
+    }
+
+    .about-item {
+        margin-bottom: 5px;
+    }
+
+
+    .counter-item {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+
+
+    .icon {
+        padding-bottom: 15px;
+    }
+
+    p {
+
+        margin-bottom: -3rem;
+    }
+
+    #feedback {
+        padding-top: 25px;
+        padding-bottom: 30px;
+
+    }
+
+    .feed-text {
+        margin-left: 0px;
+    }
+
+    .feed-text p {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+
+    .feed-text h4 {
+
+        margin-top: 50px;
+    }
+
+
+
+    #feedback .left,
+    .right {
+        display: none !important;
+    }
+
+
+    .feed-icon i {
+        padding: 18px 32px;
+
+    }
+
+
+    #team {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+
+
+    #gallery {
+        padding-top: 30px;
+    }
+
+    .gallery-item {
+        padding-top: 0px;
+    }
+
+    .head h2 {
+
+        padding-bottom: 65px;
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0px;
+    }
+
+    .head p {
+        font-size: 14px;
+
+        line-height: 22px;
+
+        text-align: center;
+    }
+
+    .head h2::after {
+        bottom: 42px;
+
+    }
+
+    .head p {
+
+        margin-bottom: 20px;
+    }
+
+
+
+    .item-img {
+
+        margin-bottom: 5px;
+    }
+
+
+    #footer {
+        padding-top: 45px;
+        padding-bottom: 60px;
+
+    }
+
+
+    .footer-item1 p {
+
+        line-height: 25px;
+        padding-top: 20px;
+    }
+
+    p {
+        margin-bottom: -1rem;
+    }
+
+
+    .h5,
+    h5 {
+        font-size: 0.25rem;
+    }
+
+    .form-control {
+        margin-bottom: 20px;
+    }
+
+    .copyright p {
+        line-height: 40px;
+
+    }
+
+    #footer {
+
+        padding-bottom: 40px;
+    }
+
+
+    body {
+
+        text-align: center;
+    }
+
+    #footer {
+        padding-bottom: 18px;
+    }
+
+    body {
+
+        text-align: left;
+    }
+
+    .team-overlay i {
+        margin-left: -2.5px;
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    .feed-text h4 {
+        padding-left: 0px;
+    }
+
+    .feed-text h4 {
+        margin-left: 16px;
+    }
+}
+
+
+@media (min-width: 422px) and (max-width: 575.98px) {
+    .counter-item h3 {
+        font-size: 59px;
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    .feed-text h4 {
+        padding-left: 75px;
+        text-align: left;
+    }
+
+    .counter-item:last-child::before {
+        display: none;
+    }
+
+    .counter-item::after {
+        display: none;
+    }
+
+
+}
